@@ -1,0 +1,123 @@
+:root {
+  --md-primary-fg-color:        #1e222d;
+  --md-primary-fg-color--light: #1e222d;
+  --md-primary-fg-color--dark:  #1e222d;
+}
+[data-md-color-scheme="slate"] {
+  --md-hue: 210; 
+}
+[data-md-color-scheme="tech"] {
+  --md-primary-fg-color: #FFFFFF;
+  --md-accent-fg-color: #0049bd;
+  --md-typeset-a-color: #2065d4;
+}
+
+.md-header {
+    background-color: var(--md-primary-fg-color);
+    box-shadow: none;
+    border-bottom: 1px solid #bfbebe;
+}
+
+.md-header__title {
+    visibility: hidden !important;
+    flex-grow: 1 !important; /* Блок продолжает растягиваться, занимая пустое место */
+}
+
+.md-search__form {
+    background: rgba(0, 0, 0, 0.04) !important;
+    border-radius: 8px !important;
+    border: 1px solid rgba(0, 0, 0, 0.06) !important;
+    padding: 0 14px !important;
+}
+
+.md-search__form:focus-within {
+    background: white !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06) !important;
+}
+
+.md-search__icon {
+    color: #9e9e9e !important;
+    opacity: 0.8 !important;
+}
+
+.md-search__input::placeholder {
+    color: #bdbdbd !important;
+    font-weight: 300 !important;
+}
+
+.md-icon svg {
+    fill: #9e9e9e
+
+}
+
+.md-footer {
+    --md-footer-bg-color: #7a7e7c;
+}
+
+.md-content h1, .md-content h2, .md-content h3, .md-content h4 {
+    font-family: 'Roboto Mono';
+    font-weight: 600;
+    color: #4b5563;
+}
+
+.md-content h1 {
+    font-size: 30px;
+}
+
+.md-content h2 {
+    font-size: 24px;
+}
+
+.md-content h3 {
+    font-size: 21px;
+}
+
+.md-content h4 {
+    font-size: 18px;
+}
+
+body {
+    font-family: 'Roboto Mono';
+}
+
+p {
+    font-family: 'Roboto Mono';
+    font-size: 16px;
+}
+
+ul, ol {
+    font-family: 'Roboto Mono';
+    font-size: 16px;
+}
+
+.md-nav__link {
+    font-family: 'Roboto Mono';
+    font-size: 15px;
+    color: #4A4A4A;
+}
+
+.md-nav__link:hover {
+    color: #221c1a; 
+}
+  
+.md-status--in-progress::after {
+    mask-image: var(--md-status--in-progress);
+    -webkit-mask-image: var(--md-status--in-progress);
+}
+
+.admonition-title {
+    font-size: 14px; /* Вы можете изменить размер шрифта по вашему усмотрению */
+}
+
+.details-title {
+    font-size: 14px;
+}
+
+details > summary {
+    font-size: 14px;
+}
+
+.md-typeset code {
+    background-color: #e6e6e7;
+}
+
