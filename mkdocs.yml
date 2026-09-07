@@ -68,7 +68,7 @@ nav: # Структура сайта
       - 'Markdown: базовый синтаксис': markdown.md
 #      - 'Markdown: расширенный синтаксис': markdown-extensions.md
 #      - Тех.минимум по git: git-for-tech-writer.md
-#      - Вебинары: meetings.md
+      - Вебинары: meetings.md
       - Домашние задания:
         - Домашнее задание №0: homeworks/homework-0.md
         - Домашнее задание N1: homeworks/homework-1.md
