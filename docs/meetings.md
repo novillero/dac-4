@@ -22,3 +22,5 @@
 * Посмотреть [запись встречи](https://disk.yandex.ru/i/xYlKEd6eMoNBzA){target=_blank}.
 
 ---
+
+#### Вебинар №2 «GIT для технического писателя»
