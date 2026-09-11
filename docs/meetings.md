@@ -19,4 +19,6 @@
 
 * Скачать [презентацию](./original-docs/meeting-1.pdf){target=_blank}.
 
-<!--* Посмотреть [запись встречи](https://disk.yandex.ru/i/62RVno45PG9ILw){target=_blank}.-->
+* Посмотреть [запись встречи](https://disk.yandex.ru/i/xYlKEd6eMoNBzA){target=_blank}.
+
+---
