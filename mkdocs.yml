@@ -11,8 +11,8 @@ theme: # Тема сайта, информация о ее параметрах
   features:
     #- navigation.sections
     - navigation.indexes # Позволяет создавать корневые страницы разделов меню. Корневая страница должна лежать в папке раздела и называться index.md. Пример использования корневых страниц приведен ниже в настройках nav
-    #- navigation.tabs # Верхнее меню
-    #- navigation.tabs.sticky # Фиксация верхнего меню
+    - navigation.tabs # Верхнее меню
+    - navigation.tabs.sticky # Фиксация верхнего меню
     #- navigation sections # Настройка спойлеров в левом меню
     #- navigation.expand # Разворачивает спойлеры в левом меню по умолчанию
     #- toc.integrate # Фиксирует оглавление страницы в левом меню
@@ -63,25 +63,26 @@ plugins:
         enabled: false
    
 nav: # Структура сайта
-    - Материалы курса: index.md
+  - Материалы курса: 
+    - index.md
     - 'Markdown: базовый синтаксис': markdown.md
-#    - 'Markdown: расширенный синтаксис': markdown-extensions.md
+    - 'Markdown: расширенный синтаксис': markdown-extensions.md
     - Тех.минимум по git: git-for-tech-writer.md
     - Вебинары: meetings.md
     - Домашние задания:
       - Домашнее задание №0: homeworks/homework-0.md
       - Домашнее задание N1: homeworks/homework-1.md
       - Домашнее задание N2: homeworks/homework-2.md
-#      - Домашнее задание №3: homeworks/homework-3.md
+      - Домашнее задание №3: homeworks/homework-3.md
 #      - Домашнее задание N4: homeworks/homework-4.md
 #      - Домашнее задание N5: homeworks/homework-5.md
 #      - Домашнее задание N6: homeworks/homework-6.md
-#      - Кросс-ревью:
-#        - Как проводить ревью: review/how-to.md
-#        - Стайлгайд для пошаговых инструкций: review/styleguide.md
-#    - Домашний проект:
-#      - pet-project/index.md
-#      - Настройка MkDocs: pet-project/mkdocs-setup.md
+    - Кросс-ревью:
+      - Как проводить ревью: review/how-to.md
+      - Стайлгайд для пошаговых инструкций: review/styleguide.md
+  - Домашний проект:
+    - pet-project/index.md
+    - Настройка MkDocs: pet-project/mkdocs-setup.md
 #      - Подключение плагинов MkDocs: pet-project/mkdocs-plugins.md
 #      - Публикация MkDocs: pet-project/mkdocs-publication.md
 #      - Подключение OpenAPI: pet-project/api-add.md

@@ -23,6 +23,16 @@
     flex-grow: 1 !important; /* Блок продолжает растягиваться, занимая пустое место */
 }
 
+.md-tabs__item .md-tabs__link {
+  color: #4a4a4a !important;
+  opacity: 1 !important;
+}
+
+.md-tabs__item--active .md-tabs__link {
+  color: #4a4a4a !important;
+  font-weight: 600;
+}
+
 .md-search__form {
     background: rgba(0, 0, 0, 0.04) !important;
     border-radius: 8px !important;
