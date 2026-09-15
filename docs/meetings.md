@@ -58,6 +58,6 @@
 ---
 
 * Прочитать [статью](./pet-project/mkdocs-setup.md).
-<!--* Посмотреть [запись встречи](https://disk.yandex.ru/i/YjaG5pWFSfxnMQ){target=_blank}.-->
+* Посмотреть [запись встречи](https://disk.yandex.ru/i/eG5rXAlF-vr8hw){target=_blank}.
 
 ---
