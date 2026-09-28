@@ -129,4 +129,4 @@
     * [Кастомизация стилей MkDocs](./pet-project/mkdocs-css.md)
     * [Единый источник в MkDocs](./pet-project/snippets.md)
 
-<!--* Посмотреть [запись встречи](https://disk.yandex.ru/i/ubTzncABQ_hZeg){target=_blank}.-->
+* Посмотреть [запись встречи](https://disk.yandex.ru/i/2munalQwJajRhA){target=_blank}.
